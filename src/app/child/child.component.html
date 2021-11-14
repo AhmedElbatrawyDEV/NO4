@@ -1,0 +1,6 @@
+<ng-template #defualtbutton>
+  <button>defualt button</button>
+</ng-template>
+<ng-container
+  *ngTemplateOutlet="parentTemplate ? parentTemplate : defualtbutton"
+></ng-container>
