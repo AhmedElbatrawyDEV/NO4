@@ -1,5 +1,5 @@
-import { Component, OnDestroy } from '@angular/core';
-import { Observable, Subscription } from 'rxjs';
+import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
 @Component({
   selector: 'app-root',
